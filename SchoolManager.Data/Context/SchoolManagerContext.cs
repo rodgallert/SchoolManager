@@ -16,7 +16,7 @@ namespace SchoolManager.Data.Context
 
         protected override void OnConfiguring(DbContextOptionsBuilder builder)
         {
-            builder.UseMySql(ServerVersion.AutoDetect(_configuration.GetConnectionString("conn")));
+            builder.UseMySql(_configuration.GetConnectionString("conn"),ServerVersion.AutoDetect(_configuration.GetConnectionString("conn")));
         }
 
         protected override void OnModelCreating(ModelBuilder builder)

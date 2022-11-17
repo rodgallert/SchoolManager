@@ -21,7 +21,6 @@ namespace SchoolManager.Data.Mapping
 
             builder.Entity<StudentActivity>()
                 .Property(x => x.ReceivedGrade)
-                .IsRequired(false)
                 .HasPrecision(2);
 
             builder.Entity<StudentActivity>()

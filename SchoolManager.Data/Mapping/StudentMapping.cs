@@ -68,10 +68,6 @@ namespace SchoolManager.Data.Mapping
                 .HasForeignKey(x => x.ClassId);
 
             builder.Entity<Student>()
-                .Property(x => x.Activities)
-                .IsRequired(false);
-
-            builder.Entity<Student>()
                 .HasMany(x => x.Activities)
                 .WithOne(x => x.Student)
                 .HasForeignKey(x => x.ActivityId);
