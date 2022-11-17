@@ -4,6 +4,6 @@ namespace SchoolManager.Domain.Interfaces.Repositories
 {
     public interface IUserRepository
     {
-        Task<User> AuthenticateAsync(string email, string username, string password);
+        Task<User> AuthenticateAsync(string email, string password);
     }
 }
