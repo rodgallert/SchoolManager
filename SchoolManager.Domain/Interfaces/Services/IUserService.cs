@@ -4,6 +4,6 @@ namespace SchoolManager.Domain.Interfaces.Services
 {
     public interface IUserService
     {
-        User AuthenticateAsync(string email, string password);
+        Task<User> AuthenticateAsync(string email, string username, string password);
     }
 }

@@ -4,7 +4,7 @@ namespace SchoolManager.Domain.Interfaces.Services
 {
     public interface ITeacherService
     {
-        ICollection<Teacher> GetAllActiveAsync();
-        Teacher GetByIdAsync(string id);
+        Task<ICollection<Teacher>> GetAllActiveAsync();
+        Task<Teacher> GetByIdAsync(string id);
     }
 }

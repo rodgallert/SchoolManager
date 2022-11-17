@@ -14,9 +14,9 @@ namespace SchoolManager.Data.Repositories
             _context = context;
         }
 
-        public async Task<User> AuthenticateAsync(string email, string password)
+        public async Task<User> AuthenticateAsync(string email,  string username, string password)
         {
-            return await _context.User.Where(x => x.Email == email && x.Password == password).FirstOrDefaultAsync();
+            return await _context.User.Where(x => (x.Email == email || x.Username == username) && x.Password == password).FirstOrDefaultAsync();
         }
     }
 }

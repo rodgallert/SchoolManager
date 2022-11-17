@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolManager.Data\SchoolManager.Data.csproj" />
+    <ProjectReference Include="..\SchoolManager.Domain\SchoolManager.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

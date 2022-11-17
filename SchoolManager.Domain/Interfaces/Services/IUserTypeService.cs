@@ -4,7 +4,7 @@ namespace SchoolManager.Domain.Interfaces.Services
 {
     public interface IUserTypeService
     {
-        UserType GetByUserIdAsync(string userId);
-        UserType GetByIdAsync(string id);
+        Task<UserType> GetByUserIdAsync(string userId);
+        Task<UserType> GetByIdAsync(string id);
     }
 }

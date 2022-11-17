@@ -4,7 +4,7 @@ namespace SchoolManager.Domain.Interfaces.Services
 {
     public interface IActivityService
     {
-        ICollection<Activity> GetAllActiveAsync();
-        Activity GetByIdAsync(string id);
+        Task<ICollection<Activity>> GetAllActiveAsync();
+        Task<Activity> GetByIdAsync(string id);
     }
 }
