@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManager.API", "SchoolManager.API\SchoolManager.API.csproj", "{06A03E10-0C9D-4B2D-A382-248D3DB0680B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Application", "1 - Application", "{F10BF097-1CED-4C2D-A044-12751F00C804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Services", "2 - Services", "{C4A472EA-C2AF-4614-8662-0963481FC136}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{719256CA-FD2D-41E9-8AC9-1F156D26A81A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Data", "4 - Data", "{F324C478-F155-4614-AD2A-014215E7E509}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManager.Services", "SchoolManager.Services\SchoolManager.Services.csproj", "{347E858D-97BC-45D6-95B1-DF8A8E6F4878}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManager.Domain", "SchoolManager.Domain\SchoolManager.Domain.csproj", "{006DB144-5AFF-4F1E-AA85-EB9683134863}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SchoolManager.Data", "SchoolManager.Data\SchoolManager.Data.csproj", "{7029F12E-D988-4DBD-9973-BD6E10FD7850}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL", "SQL", "{5EA272CA-0EC4-4B3C-ADD0-BD2C0DA359EF}"
+	ProjectSection(SolutionItems) = preProject
+		Initial Insert.sql = Initial Insert.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06A03E10-0C9D-4B2D-A382-248D3DB0680B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06A03E10-0C9D-4B2D-A382-248D3DB0680B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06A03E10-0C9D-4B2D-A382-248D3DB0680B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06A03E10-0C9D-4B2D-A382-248D3DB0680B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{347E858D-97BC-45D6-95B1-DF8A8E6F4878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{347E858D-97BC-45D6-95B1-DF8A8E6F4878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{347E858D-97BC-45D6-95B1-DF8A8E6F4878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{347E858D-97BC-45D6-95B1-DF8A8E6F4878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{006DB144-5AFF-4F1E-AA85-EB9683134863}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{006DB144-5AFF-4F1E-AA85-EB9683134863}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{006DB144-5AFF-4F1E-AA85-EB9683134863}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{006DB144-5AFF-4F1E-AA85-EB9683134863}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7029F12E-D988-4DBD-9973-BD6E10FD7850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7029F12E-D988-4DBD-9973-BD6E10FD7850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7029F12E-D988-4DBD-9973-BD6E10FD7850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7029F12E-D988-4DBD-9973-BD6E10FD7850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{06A03E10-0C9D-4B2D-A382-248D3DB0680B} = {F10BF097-1CED-4C2D-A044-12751F00C804}
+		{347E858D-97BC-45D6-95B1-DF8A8E6F4878} = {C4A472EA-C2AF-4614-8662-0963481FC136}
+		{006DB144-5AFF-4F1E-AA85-EB9683134863} = {719256CA-FD2D-41E9-8AC9-1F156D26A81A}
+		{7029F12E-D988-4DBD-9973-BD6E10FD7850} = {F324C478-F155-4614-AD2A-014215E7E509}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D06A237B-9B89-492E-AE36-DD86155D5034}
+	EndGlobalSection
+EndGlobal
